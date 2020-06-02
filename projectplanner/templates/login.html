@@ -1,0 +1,26 @@
+{%extends "verification.html"%}
+
+
+{%block title%}Login{%endblock%}
+
+{%block heading%}Login{%endblock%}
+
+{%block form%}
+<form style = "margin-right:40px; margin-left:40px; margin-top:20px" action = "/" method = "POST" class = "needs-validation" novalidate>
+  <div class="form-group row">
+      <input type="text" name = "uname" class="form-control" style = "width:100%" id="inputUsername" placeholder="Username" required>
+  </div>
+  <br>
+  <div class="form-group row">
+      <input type="password" name = "pword" class="form-control" style = "width:100%" id="inputPassword" placeholder = "Password" required>
+  </div>
+  <br>
+  <div class="form-group row justify-content-center">
+    <p> Don't have an account yet? Register <a href="/register">here</a>.</p>
+  </div>
+  <div class="form-group row justify-content-center">
+    <button type = "submit" class = "btn btn-secondary"> Login</button>
+  </div>
+
+</form>
+{%endblock%}
