@@ -1,4 +1,9 @@
 DEVLOG:
 --------------------------------------------------------------------------------
-2020-5-27 - Canale Britni
+2020-05-27 - Canale Britni
 Continuing building plan, starting devlog.
+------------------------------------------------
+2020-06-01 - Canale Britni
+Built template for home page, and authentication
+pages. Working on main python file. Added to
+plan.
