@@ -18,10 +18,12 @@
 
       <div class = "row justify-content-right">
 
-        <a type="button" role="button" class="btn btn-outline active" style = "margin:10px" aria-pressed="true">settings</a>
-
-        <a type="button" role="button" class="btn btn-outline active" style = "margin:10px" href="/login" aria-pressed="true">login</a>
-
+        <form action = "/settings">
+          <button style="margin:10px" type="submit" class="btn btn-outline-light">Settings</button>
+        </form>
+        <form action = "/logout">
+          <button style="margin:10px" type="submit" class="btn btn-outline-light">Logout</button>
+        </form>
       </div>
 
     </nav>

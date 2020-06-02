@@ -20,7 +20,13 @@
             </div>
             <br>
             <h1 style="text-align:center">{%block heading%}{%endblock%}</h3>
-            {%block form%}Login{%endblock%}
+              {% with messages = get_flashed_messages() %} {% for message in messages %}
+            <div class="alert alert-warning" role="alert">
+                {{ message }}
+            </div>
+            {% endfor %}
+            {% endwith %} 
+            {%block form%}{%endblock%}
 
           </div>
         </div>
