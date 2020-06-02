@@ -1,0 +1,23 @@
+Bug Tracker Project Plan
+Britni Canale
+
+Basic Description:
+This web application will allow developers to plan and track the progress of their projects. It will be a great tool for teams to use to always be updated on their progress so that all members are on the right page.
+
+
+Features
+Login Accounts
+Creating new projects
+Adding members to projects
+Plan
+DevLog
+BugTracker
+Task assigner
+Marking tasks in progress, completed, buggy in particular
+Scheduler
+
+Tools
+Microframework: Flask
+Backend: Python
+Frontend: JS, HTML, CSS
+Data: SQLite3
